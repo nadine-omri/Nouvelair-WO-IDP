@@ -1,4 +1,4 @@
-# Sabena IDP — Extraction intelligente des bons de travail
+# Nouvelair WO IDP — Extraction intelligente des bons de travail
 
 Pipeline de traitement intelligent de documents (IDP) pour les bons de travail
 (Work Orders) de maintenance aéronautique de Sabena Technics : OCR, extraction
