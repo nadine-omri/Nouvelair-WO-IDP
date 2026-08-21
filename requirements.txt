@@ -1,0 +1,32 @@
+# --- Backend API ------------------------------------------------------------
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9
+pydantic>=2.5
+python-dotenv>=1.0
+
+# --- Traitement d'image / documents ------------------------------------------
+opencv-python-headless>=4.9,<5   # "headless" : pas de deps GUI inutiles sur un serveur
+numpy>=1.26,<3
+Pillow>=10.2
+PyMuPDF>=1.24         # fitz (rendu PDF -> images)
+pytesseract>=0.3.10   # necessite Tesseract OCR installe sur le systeme
+
+# --- OCR manuscrit (TrOCR) / vision locale ------------------------------------
+torch>=2.2
+torchvision>=0.17     # requis par transformers pour le traitement d'image (TrOCR)
+transformers>=4.40
+sentencepiece>=0.2    # tokenizer TrOCR
+protobuf>=4.25
+
+# --- LLM (extraction vision + validation + analyse des prix) ------------------
+google-genai>=1.0          # Gemini (extraction vision par defaut)
+anthropic>=0.40            # optionnel, si VISION.provider = "claude"
+huggingface_hub>=0.28      # Hugging Face Inference API (rapport IA des prix)
+ollama>=0.4                # repli local (extraction + rapport de prix)
+
+# --- Outils / calibration (optionnel, tools/calibrate_roi.py) ----------------
+streamlit>=1.35
+
+# --- Tests --------------------------------------------------------------------
+pytest>=8.0

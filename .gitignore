@@ -1,0 +1,46 @@
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# --- Donnees et sorties (peuvent contenir des documents/donnees clients) ---
+data/input/*
+data/processed/*
+data/output/*
+data/test_set/images/*
+!data/input/.gitkeep
+!data/processed/.gitkeep
+!data/output/.gitkeep
+!data/test_set/images/.gitkeep
+
+# Base de donnees locale (donnees clients reelles -> jamais versionnee)
+data/sabena_wo.db
+data/sabena_wo.db-journal
+
+# Images de debug generees par debug_pipeline.py
+debug_out/
+
+logs/
+*.log
+
+# --- Secrets ------------------------------------------------------------------
+.env
+.env.local
+.env*.local
+
+# --- Frontend Next.js (sabena-nextjs/) --------------------------------------
+sabena-nextjs/node_modules/
+sabena-nextjs/.next/
+sabena-nextjs/out/
+sabena-nextjs/tsconfig.tsbuildinfo
+sabena-nextjs/next-env.d.ts
+sabena-nextjs/npm-debug.log*
+sabena-nextjs/.vercel/
+
+# --- Divers -------------------------------------------------------------------
+.DS_Store
+.idea/
+.vscode/

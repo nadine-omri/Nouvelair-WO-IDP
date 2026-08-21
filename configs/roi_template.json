@@ -1,0 +1,197 @@
+{
+  "document_type": "sabena_customer_work_order",
+  "zones": [
+    {
+      "field": "order_number",
+      "type": "printed",
+      "bbox": [
+        0.78,
+        0.156,
+        0.94,
+        0.196
+      ],
+      "multiline": false
+    },
+    {
+      "field": "date",
+      "type": "handwritten",
+      "bbox": [
+        0.47,
+        0.055,
+        0.635,
+        0.1
+      ],
+      "multiline": false
+    },
+    {
+      "field": "lieu_place",
+      "type": "handwritten",
+      "bbox": [
+        0.645,
+        0.055,
+        0.78,
+        0.1
+      ],
+      "multiline": false
+    },
+    {
+      "field": "work_required",
+      "type": "handwritten",
+      "bbox": [
+        0.025,
+        0.278,
+        0.68,
+        0.44
+      ],
+      "multiline": true
+    },
+    {
+      "field": "ac_type",
+      "type": "handwritten",
+      "bbox": [
+        0.685,
+        0.252,
+        0.965,
+        0.298
+      ],
+      "multiline": false
+    },
+    {
+      "field": "ac_registration",
+      "type": "handwritten",
+      "bbox": [
+        0.685,
+        0.299,
+        0.965,
+        0.348
+      ],
+      "multiline": false
+    },
+    {
+      "field": "airline_customer",
+      "type": "handwritten",
+      "bbox": [
+        0.685,
+        0.349,
+        0.965,
+        0.398
+      ],
+      "multiline": false
+    },
+    {
+      "field": "required_mh",
+      "type": "handwritten",
+      "bbox": [
+        0.685,
+        0.399,
+        0.965,
+        0.443
+      ],
+      "multiline": false
+    },
+    {
+      "field": "customer_rep_name",
+      "type": "handwritten",
+      "bbox": [
+        0.035,
+        0.445,
+        0.245,
+        0.497
+      ],
+      "multiline": false
+    },
+    {
+      "field": "customer_rep_date",
+      "type": "handwritten",
+      "bbox": [
+        0.25,
+        0.445,
+        0.42,
+        0.497
+      ],
+      "multiline": false
+    },
+    {
+      "field": "work_summary",
+      "type": "handwritten",
+      "bbox": [
+        0.03,
+        0.546,
+        0.965,
+        0.598
+      ],
+      "multiline": true
+    },
+    {
+      "field": "material_sold",
+      "type": "table",
+      "bbox": [
+        0.03,
+        0.665,
+        0.965,
+        0.842
+      ],
+      "n_rows": 7,
+      "columns": [
+        {
+          "name": "qty",
+          "bbox": [
+            0.0,
+            0.0,
+            0.1,
+            1.0
+          ]
+        },
+        {
+          "name": "designation",
+          "bbox": [
+            0.1,
+            0.0,
+            0.52,
+            1.0
+          ]
+        },
+        {
+          "name": "reference",
+          "bbox": [
+            0.52,
+            0.0,
+            0.78,
+            1.0
+          ]
+        },
+        {
+          "name": "price",
+          "bbox": [
+            0.78,
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "field": "observation",
+      "type": "handwritten",
+      "bbox": [
+        0.03,
+        0.847,
+        0.85,
+        0.895
+      ],
+      "multiline": true
+    },
+    {
+      "field": "inspection_visa",
+      "type": "printed",
+      "bbox": [
+        0.85,
+        0.847,
+        0.965,
+        0.895
+      ],
+      "multiline": false
+    }
+  ]
+}
