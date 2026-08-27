@@ -1,0 +1,24 @@
+[
+  {
+    "image": "data/test_set/images/wo_005096.png",
+    "note": "A completer : copier data/input/scan_01.png ici et verifier les valeurs.",
+    "ground_truth": {
+      "order_number": "005096",
+      "date": "17/07/2023",
+      "ac_type": "A320",
+      "ac_registration": "TS-INQ",
+      "airline_customer": "Nouvelair",
+      "required_mh": 52.0
+    }
+  },
+  {
+    "image": "data/test_set/images/wo_00004193.png",
+    "note": "A completer : copier data/input/scan_02.png ici.",
+    "ground_truth": {
+      "date": "05/10/2023",
+      "ac_type": "A320",
+      "ac_registration": "TS-INQ",
+      "airline_customer": "Nouvelair"
+    }
+  }
+]

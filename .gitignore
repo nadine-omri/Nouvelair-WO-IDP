@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Donnees et sorties (a ne pas versionner : peuvent contenir des documents sensibles)
+data/input/*
+data/processed/*
+data/output/*
+data/test_set/images/*
+!data/input/.gitkeep
+!data/processed/.gitkeep
+!data/output/.gitkeep
+!data/test_set/images/.gitkeep
+
+logs/
+*.log
+
+.DS_Store
+.idea/
+.vscode/
+# Cles API
+.env

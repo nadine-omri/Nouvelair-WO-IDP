@@ -1,0 +1,38 @@
+# Vision / preprocessing
+opencv-python-headless>=4.9,<5
+numpy>=1.26,<3
+
+# OCR
+pytesseract>=0.3.10
+
+# Interface
+streamlit>=1.35
+
+# PDF -> image
+pymupdf>=1.24
+
+# Donnees / export
+pandas>=2.2
+openpyxl>=3.1
+
+# Tests
+pytest>=8.0
+
+# --- Extraction vision (Claude ou Gemini) ---------------------------------
+# Necessaire quand configs.config.VISION.enabled = True (ou case a cocher Streamlit)
+google-genai>=1.0          # provider="gemini" (par defaut, gratuit)
+ollama>=0.4                # provider="ollama" (local, gratuit, hors-ligne)
+anthropic>=0.40            # provider="claude" (optionnel, payant)
+# Necessaire quand configs.config.OCR.use_handwriting_model = True
+transformers>=4.40
+torch>=2.2
+torchvision>=0.17
+sentencepiece>=0.2
+protobuf>=4.25
+Pillow>=10.0
+python-dotenv>=1.0
+
+# API HTTP pour le nouveau frontend Next.js (api_server.py)
+fastapi>=0.110
+uvicorn>=0.27
+python-multipart>=0.0.9
